@@ -2,10 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinLayouts.Layouts.Absolute.AbsolutePage">
-    
-    
+
+
     <ContentPage.Content>
         <AbsoluteLayout>
+            <RelativeLayout>
+                
+            </RelativeLayout>
             <!-- (X,Y,W,H)-->
             <BoxView AbsoluteLayout.LayoutBounds="0,0,200,100" BackgroundColor="Blue"/>
             <BoxView AbsoluteLayout.LayoutBounds="50,50,100,100" BackgroundColor="Green"/>
