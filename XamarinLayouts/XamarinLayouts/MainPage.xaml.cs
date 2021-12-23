@@ -27,7 +27,7 @@ namespace XamarinLayouts
         {
             Navigation.PushAsync(new Layouts.Absolute.AbsolutePage());
         }
-        private void GoPaginaStackRelative(Object sender, EventArgs args)
+        private void GoPaginaRelative(Object sender, EventArgs args)
         {
             Navigation.PushAsync(new Layouts.Relative.RelativePage());
         }
