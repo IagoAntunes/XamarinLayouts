@@ -10,7 +10,7 @@ namespace XamarinLayouts
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new XamarinLayouts.MainPage());
         }
 
         protected override void OnStart()

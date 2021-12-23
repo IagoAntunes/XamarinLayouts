@@ -14,5 +14,28 @@ namespace XamarinLayouts
         {
             InitializeComponent();
         }
+
+        private void GoPaginaStack(Object sender,EventArgs args)
+        {
+            Navigation.PushAsync(new Layouts.Stack.StackPage());
+        }
+        private void GoPaginaGrid(Object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Layouts.Grid.GridPage());
+        }
+        private void GoPaginaAbsolute(Object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Layouts.Absolute.AbsolutePage());
+        }
+        private void GoPaginaStackRelative(Object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Layouts.Relative.RelativePage());
+        }
+        private void GoPaginaScroll(Object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Layouts.Scroll.ScrollPage());
+        }
+
+
     }
 }
